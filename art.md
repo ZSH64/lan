@@ -1,0 +1,3 @@
+- dire straits
+- came to me in the flash of insight
+- conning other peple to read thing to him
