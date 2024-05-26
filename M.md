@@ -30,7 +30,8 @@ SO how can we help you just to have it everything under controll
 
 then there is another bit which is, we know that James is comming so you can show him around interms of operanally and also we can have other people you
 I knwo that Dave was explaning, some of our guys can deploye things up at the certain stage, they knwo and they good kknwo how to do it for their own but they just dont have the autority
-so if you could think interms of autority, we could provide temprorly some people in out rangs obviously,I'm not saying 10, I'm saying one or two people, they knwo how this works, so they could help you moving
+so if you could think interms of autority, we could provide temprorly some people in out rangs obviously,I'm not saying 10, I'm saying one or two people, they knwo how this works, so they could be helping you moving, that's another thing
+We have limiting  bauble the requests limited amount of people that could interact with you
 
 
 
