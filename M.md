@@ -38,4 +38,4 @@ We have limiting  bauble the requests limited amount of people that could intera
 
 
 
-
+He likes Miq, he has lots of experience, dosent have lots of eperince in azured devops  but he weoks with Jenkins
