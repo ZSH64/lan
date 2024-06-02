@@ -1,0 +1,3 @@
+- That was a mandatory thing that needed to be done
+- Did you consider using any other managed services?
+- did you have some windows between where you kept the old server and you need to bring the new service? **how was that process orchestrated?** how did you do that?
