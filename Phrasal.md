@@ -1,3 +1,22 @@
 - That was a mandatory thing that needed to be done
 - Did you consider using any other managed services?
 - did you have some windows between where you kept the old server and you need to bring the new service? **how was that process orchestrated?** how did you do that?
+  So, to keep the application live, you need to **bring a new instance** of the server and **flip traffic to a new one**. So, how did that process work in detail on the technology side?
+- There were some problems I had to overcome
+- I **wrote** some **Powershell script**
+- **terminating the old server** when it is **no longer used** to save cost
+- You need to **roll out** the new **windows images**.
+- **Terraform** handles a very **narrow set of tasks**
+- How much of that was automated? You mentioned Terraform, but Terraform handles a very narrow set of tasks. So, how much of the entire journey,from **kicking off this process** to **decommissioning the old servers** was automated?
+- I got to the stage where I had ...
+- There is a bit of a manual process around running SSL binding
+-  There is a good operational document around that
+-  so, Terraform is a relatively new technology to me.
+-  That was my first exposure to Terraform.
+-  It is pretty easy to pick up when you use Terrafom
+-  Once you have a server, you flip the traffic to the new stack. How did you know the new stack is working correctly? if there is **feature parity** between the old one and the new one.
+-  so **there is a set of tasks need to be performed**there is a set of tasks need to be performed
+-  do you have the motoring at the top of the stack?
+-   so initially, in the early days, yes, I was handling those L1 and L2 issues.
+-   I documented the most **common recurring issues**
+  
