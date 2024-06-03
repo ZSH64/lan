@@ -34,7 +34,10 @@
 - Do you have any hands-on experience with managing Linux or operating Linux VM?
 - **Predominantly**, Windows really. I know I would have done releases in previous banking roles in Linux, but **it would have been predominantly** Windows.
 - In order to **retrieve data** and **report on** that information, we had Ansible scripts running **to pull that information** and **report it back** to create a **consolidated dashboard**. That was probably one example of using Ansible.
--**Aside from** DataDog, did you use any other similar tools? **I believe** DataDog is for **collecting and presenting metrics**. It's a **comprehensive data management tool**.
+- **Aside from** DataDog, did you use any other similar tools? **I believe** DataDog is for **collecting and presenting metrics**. It's a **comprehensive data management tool**.
+- You can also **do synthetic load testing**, **similar to stress testing** within the application, without going into too much detail.
+- We had **non-functional requirements** that the API **response time should be** under 300 milliseconds,So, we were able to do **stress testing**
+  
 
 
 
