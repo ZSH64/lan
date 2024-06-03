@@ -271,7 +271,104 @@ However, we had a big issue with significant latency in one of the web APIs, whi
 
 **K:**  
 
-Does it also have log aggregation?
+Does it also have log aggregation? or is it just primarily metrics?
+
+**Interviewee:** 
+It can **tail logs** as well. You can see the logs and visualize them within DataDog. There is a **cost associated with** how many logs you are consuming, so you can just tail certain logs.
+
+**K:**  
+Have you used any other log aggregation tools? Like Elastic  Stack or Splunk?
+
+**Interviewee:** 
+I use Splunk pretty heavily in Allianz.
+
+**K:**  
+Have you created any Dashboard in Splunk?
+
+
+**K:**  
+So Calico is one of the plugins for k8s? do you use any other?
+
+**Interviewee:** 
+No, Calico was the only one that I was looking at when I was there.
+
+**K:** 
+Did they ask you to use Calico? or did you just choose it on your own?
+
+
+**Interviewee:** 
+No, That decision was made
+
+**K:** 
+That was running the network across all three environments? that was like a central plugin for your networks
+
+**K:** 
+What about Istio in k8s? Have you heard about Istio?
+
+
+**Interviewee:** 
+I've heard about Istio, but I haven't had too much exposure to it.
+
+
+**K:** 
+You have some experience with SQL Server as well. I'm asking because we do a lot on managed SQL instances. What kind of experience do you have with SQL Server?
+
+**K:** 
+Have you done the release management of the SQL database schema? When you release applications, you sometimes need to update the schema in sql server.
+Have you done anything like that?
+
+
+**Interviewee:** 
+I would have had at some stage, but some of those production systems were done **alongside developers** who were developing applications and **done through the releases**.
+
+**K:** 
+Out of curiosity, what software did Allianz use for the releases? what kind of toolset did you use?
+when you say you did software releases on various OS like Linux, unix and Windows how they worked excatly?
+
+
+
+
+**Interviewee:** 
+The tools we used for software releases was ServiceNow. The team would raise a Change Management Request, go through CAB, and then work **in tandem with** developers to release whatever changes they had into Production. There was a wide landscape of software for those trading systems; we oversaw several of them, including everything from Portfolio Management Systems to Analytic Systems.
+
+We had a good management process in place, and everything was often documented in terms of the sequential steps to follow for those releases.
+
+
+
+
+**K:** 
+Your job was just to do hands-on releases on whatever software was required to be released, right?
+
+**K:** 
+**We are approaching 45 minutes at the moment**. I want to use the last 15 minutes to answer any of your questions. Do you have any? Can I help you with undrestadning the role better? Or is there anything you'd like to learn from this call?
+
+
+
+**Interviewee:** 
+Yes, I do have a question. Could you tell me what you like about working on the project you're currently involved in?
+
+
+**K:** 
+I don't really feel like I'm working at a big company.Allianz Ireland had **a lot of independence for a very long time**, but this started changing recently. We used to work for Allianz Ireland, but we were moved to Allianz Technology **a year ago**. Basically, they took all the IT staff and moved them to a central organization. 
+
+Even then, we have a lot of independence in our technology choices. For instance, I was asking you about Calico, and you mentioned that someone else made that decision for you, or that you're working with tools chosen by someone else. In our case, we are pretty much choosing our technology stack ourselves.
+
+
+So it was up to us to create the infrastructure, **aside from choosing the cloud provider** because that **decision was made** for us. We didn't have any say in choosing Azure as opposed to AWS.
+
+Aside from that, it is completely up to us to **choose our own toolset** and the Linux flavor to run those servers and ensure their security. We work with various players from the security and operations sides, but again, we own the entire stack.
+
+We built it from scratch, which is why I like working here—I have full ownership of the entire stack where we run those applications.
+
+Having said that, we work very closely with the software engineering team. They are very smart guys and **came up with the model of migrating a monolithic application into a microservice one**. Because we are a small organization, we don't talk to each other using ServiceNow. While we need to fit the ServiceNow ticket, **we are on very short communication lines**. If there is any problem, you can ping one another directly.
+
+There's nothing like waiting half an hour until someone picks up a critical ticket. If there's a critical error, we can address it immediately.
+So, the fact that we are a small team and work very closely together makes it a very good workplace, in my opinion.
+
+
+
+
+
 
 
 
