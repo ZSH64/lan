@@ -19,4 +19,23 @@
 -  do you have the motoring at the top of the stack?
 -   so initially, in the early days, yes, I was handling those L1 and L2 issues.
 -   I documented the most **common recurring issues**
+-   So what is the **correlation** between k8s and cost management?
+-  The idea was for the team to **do more with less**. I don't know the **business driver** behind it.
+-  we **got an understanding of** what technology they were using
+-  How did you handle situations where a team **overused the cluster** resources, such as excessive memory and CPU consumption?
+-  I was not personally involved in it.
+-  I was developing a utility to **sniff out** **dormant** namespaces
+-  Have you provisioned your own K8s server or K8s cluster, even **aside from all your work experience**?
+-  Did you do that for **your own purposes as exercises**?
+-  What **advantages do you** see in using K8s in general?
+-  The idea is to do more with less. I see it as a good way to **keep costs in check** and ensure smooth operations in the firm.
+-  Do you see any workload that you'd never put in K8s for some reason? If I told you we have a cluster of VMs and want to **cut the costs by** moving them all to K8s, is there any use case you consider **not suitable** for K8s?
+-  No, Nothing that I can think of
+- Do you have any hands-on experience with managing Linux or operating Linux VM?
+- **Predominantly**, Windows really. I know I would have done releases in previous banking roles in Linux, but **it would have been predominantly** Windows.
+- In order to **retrieve data** and **report on** that information, we had Ansible scripts running **to pull that information** and **report it back** to create a **consolidated dashboard**. That was probably one example of using Ansible.
+-**Aside from** DataDog, did you use any other similar tools? **I believe** DataDog is for **collecting and presenting metrics**. It's a **comprehensive data management tool**.
+
+
+
   
