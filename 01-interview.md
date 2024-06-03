@@ -366,9 +366,32 @@ There's nothing like waiting half an hour until someone picks up a critical tick
 So, the fact that we are a small team and work very closely together makes it a very good workplace, in my opinion.
 
 
+Again having that sence of ownership gives you alot of pride actully. As I said, it givesm me pride. I dont knwo Zahra's think but, so the fact that we build that from scrach
+
+
+It is very hard to find finantial company which is very hevealy regulated and wich alwayse gives you degreed of freedom
+
+I understand how that kind of policy works, but Allianz is not like that. They are really well-regulated. At the moment, we are working with PWC on auditing some aspects of IT operations, so I need to provide them with a lot of boring reports, documentation, and stuff like that. Obviously, we are not a wild kind of company; we are still under the law.
+
+But on the IT side, as long as we play within the rules and don't leak customer data, we are left alone. We can do what we want. That's a very good aspect
+
+Plus, we have a flexible working environment. As I said, we work mostly remotely and only need to come to the office once a week. Other companies are different; I know JPMorgan has a three-day-a-week office policy, and some companies force people to come to the office full-time. It is not like that here.
+
+
+I hope I answered your questions.So sence of Ownership plus flexible work enviroments
+
+**Interviewee:** 
+I completly agree, Lot of company that I worked for as the same . It very locjkked down, you dont get make a lot of decisions regarding tecnologoes stuff and everything standrazied, sounds really intresting 
+
+**K:** 
+Have you worked in an environment where you needed to build something from scratch and choose the best possible technology? Or have you been given tasks, like building servers from scratch? Do you have any experience in an environment like that? It doesn't have to be regulatory, just any relevant experience?
 
 
 
 
 
+**Interviewee:** 
+Alot of stuff that I worked on would have been myself like full autonomy over what I do, I developed websites and applications in the past. Wherby I got full atanomy over what I've done. What framework I'm ganna use, what architecure tio use
+
+There are some example which not neccery be documeneted on here. I guss with fidelity that applicatiins planed out and deployed and deliverd for team, that would probably closets thing that I could mentioen
 
