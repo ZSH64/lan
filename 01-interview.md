@@ -261,5 +261,17 @@ In order to retrieve and report on that information, we had Ansible scripts runn
 Any experience with Promethouse, Graffana.
 So, DataDog was one of the tools. Aside from DataDog, did you use any other similar tools? I believe DataDog is for collecting and presenting metrics. It's a comprehensive data management tool.
 
+**Interviewee:** 
+Yes, it can do a lot of things to monitor, let's say, proccess level metrics, It can monitor WebAPis ad API response times. 
+It can monitor databases. It can do all the basic system level metrics monitoring. You can also do synthetic load testing so like stress testing withn the application, not something
+like I'm not using too much detail
+
+However, we had a big issue with significant latency in one of the web APIs, which was preventing a release from occurring. We had non-functional requirements that the API response time should be under 300 milliseconds. So, we were able to do stress testing and see all that within a dashboard in DataDog. By looking at all the different components, we could perform some performance tuning, adjust the IIS settings, run stress tests, and monitor the changes in DataDog.
+
+
+**K:**  
+
+Does it also have log aggregation?
+
 
 
