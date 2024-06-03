@@ -164,5 +164,102 @@ The other part was a kind of advisory for new tenants coming onboard to the syst
 The second part of my role was around ingesting a company into the IT landscape within Allianz. so I would have been doing some bio worker around that like opening network path kind of stuff
 
 **K:**  
-So that k8s cluster sounds like (to me at least), there is one cluster, and the individual team would get their own namespace to play with. Is that teh accurate description?
+So that k8s cluster sounds like (to me at least), there is one cluster, and the individual team would get their own namespace to play with. Is that the accurate description?
+
+
+**Interviewee:**
+They could create their namespace within the k8s. **Rancher** is an Interface by which they could do that. 
+
+
+**K:**  
+ How large was the cluster in terms of number of servers?
+
+
+
+**Interviewee:** 
+It was pretty signifiicant I do know the exact number of servers.
+They had a pretty interesting problem, actually. where by people were working on labs because there is in a semi-conductor industry, and the resources they use always seem to double
+ so they needed a clever way to manage cost
+
+
+
+**K:**  
+So, what is the correlation between K8s and cost management? Do they think that by having an application run on K8s, they are going to save money? I don't understand the correlation between cost and k8s.
+
+
+
+**Interviewee:** 
+The idea was for the team to do more with less. I don't know the business driver behind it.
+
+**K:**  
+Was there any idea of splitting the cluster to multiple and give the teams their own cluster? it's supposed to be a gemous one?
+
+
+
+**Interviewee:** 
+All team had their own namespaces. we got an understanding of what technology they were using
+
+
+
+
+**K:**  
+You mentioned AWS and Azure; where was the k8s running, actually?
+
+**Interviewee:** 
+I belive they run the cluster on all three envrioments Azure, AWS and GKE
+
+**K:**  
+How did you deal with cases, did you have any saying that a team abusing that cluster like consuming too much memory and cpu or anything like that?
+
+**Interviewee:** 
+There was When people like hitting the APIs too much, I believe there was a cost associated with API call.I know that there was some sort of controls putting place we had Splung to monitor like our team were hitting certain APIs
+
+I wasn't personally involved in it. **I was developing a utility to sniff out dormant namespaces** that people weren't using and automatically delete them. I created the utility with Python to do that automatically.
+
+**K:**  
+Have you provisioned your own K8s server or K8s cluster, even aside from all your work experience? Did you do that for your own purposes as exercises? Did you try to create the K8s cluster on a server or on your local machine?
+
+
+**Interviewee:** 
+Personally, I haven't.
+
+
+
+**K:**  
+What advantage do you see in using  k8s in general?
+
+**Interviewee:** 
+The idea is to do more with less. I see it as a good way to keep costs in check and ensure smooth operations in the firm.
+
+
+**K:**  
+Do you see any workload that you'd never put in the k8s for some reason?
+If I told you we have a cluster of VMs and want to cut costs by moving them all to K8s, is there any use case that you consider not suitable for K8s?
+
+**Interviewee:** 
+
+No, Nothing that I can think of.
+
+**K:**  
+ Do you have any hands-on experience with managing Linux? or operating Linux VMs?
+
+**Interviewee:** 
+Predominantly, Windows really. I know I would have done releases in previous banking roles in Linux, but it would have been predominantly Windows. 
+
+**K:**  
+Aside from Terafform, Do you have any hands-on experience with other similar tools that allow you to manage VMs, provision them, or perform some kind of automation on those VMs?
+So, Ansible, Cheif, you mention cloud information, right?
+
+**Interviewee:** 
+
+Yes, Ansible, I would have experienced it. So one thing we had was minimum security based lines for some of the servers that all the servers that they are runing and so
+these minimum security-based lines are interposed by wide policy.
+In order to retrieve and report on that information, we had Ansible scripts running to pull that information and report it back to create a consolidated dashboard. That was probably one example of using Ansible.
+
+
+**K:**  
+Any experience with Promethouse, Graffana.
+So, DataDog was one of the tools. Aside from DataDog, did you use any other similar tools? I believe DataDog is for collecting and presenting metrics. It's a comprehensive data management tool.
+
+
 
