@@ -37,6 +37,21 @@
 - **Aside from** DataDog, did you use any other similar tools? **I believe** DataDog is for **collecting and presenting metrics**. It's a **comprehensive data management tool**.
 - You can also **do synthetic load testing**, **similar to stress testing** within the application, without going into too much detail.
 - We had **non-functional requirements** that the API **response time should be** under 300 milliseconds,So, we were able to do **stress testing**
+- Does DataDog have log aggregation? or are they primarily metrics?
+- DataDog can **tail logs** as well. You can see the logs and **visualize** them within DataDog.There is a **cost associated with** how many logs you are consuming, so you can just tail certain logs.
+- I used Splunk **pretty heavily** at Allianz.
+- Calico is central plugin for your network
+- I've heard about Istio but haven't had much **exposure to** it.
+- We do a lot on managed sql
+- Have you done the release management of the SQL database schema? When you release applications, you sometimes need to update the schema in sql server.
+- The team would **raise** a **Change Management Request** in ServiceNow, **go through CAB**, and then we work **in tandem with** developers to release whatever changes they had into Production
+- We had a good management **process in place**, and everything was often documented regarding the **sequential steps** to follow for those releases.
+- Your job was just to do **hands-on releases** on whatever software was required to be released, right?
+  - deploying the application manually
+- We are **approaching** 45 minutes  at the moment.
+- we have a lot of independence in our technology choices
+- So it was up to us to create the infrastructure, aside from choosing the cloud provider, because that decision was made for us. We didn't have any say in choosing **Azure as opposed to AWS**.
+- We built it from scratch, which is why I like working here—I have full ownership of the entire stack.
   
 
 
