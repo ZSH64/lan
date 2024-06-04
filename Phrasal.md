@@ -52,6 +52,10 @@
 - we have a lot of independence in our technology choices
 - So it was up to us to create the infrastructure, aside from choosing the cloud provider, because that decision was made for us. We didn't have any say in choosing **Azure as opposed to AWS**.
 - We built it from scratch, which is why I like working here—I have full ownership of the entire stack.
+- Allianz is an exception in many ways.we handle running applications end-to-end, including solving incidents
+- We dont have production support
+- I have **no incentive to improve things**.
+- If you have questions, just **step in**.
   
 
 
