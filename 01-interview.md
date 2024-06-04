@@ -393,5 +393,46 @@ Have you worked in an environment where you needed to build something from scrat
 **Interviewee:** 
 Alot of stuff that I worked on would have been myself like full autonomy over what I do, I developed websites and applications in the past. Wherby I got full atanomy over what I've done. What framework I'm ganna use, what architecure tio use
 
-There are some example which not neccery be documeneted on here. I guss with fidelity that applicatiins planed out and deployed and deliverd for team, that would probably closets thing that I could mentioen
+There are some example which not neccery be documeneted on here. I guss with fidelity that applicatiins planed out and deployed and deliverd for team, that would probably closest thing that I could mentioen
 
+**K:** 
+Any other questions?
+
+**Interviewee:** 
+No, that's all the questions I have for now. Appreciate you answering those.
+
+
+
+So, we'll be in touch with Ellen by the end of this week. I need to talk to my boss, he is in Munich at the moment, once he comes back, we'll talk to him
+We'll let you know before the end of the week if that's fine
+
+
+**K:** 
+What do you think?
+What he was saying was that they had one gigantic k8s cluster with multiple name spaces; they want to keep the cost in check basically on those.
+This is a problem with contractors we have because they usually have no saying in how the IT is built, they come and do stuff
+He said that they generated some reports in sql server, he doesn't sound like somebody who did a lot of releases
+
+**We are exceptions** in many ways because we handle running applications end-to-end, including solving incidents. When I joined Allianz, I asked Olex about this. I asked where the production support was in this case. He said that there is no one. So, we do everything end-to-end, which is quite unusual in a company of this size.
+ 
+So he said he does his part; he has a very ****narrow point of view.** However, somebody else in India most likely handles all the incidents. This is where ServiceNow comes into play.
+
+Last night, we had an issue where we were supposedly under attack from some hackers. We noticed a **very heavy load** around 6 PM. We had to stop one of the applications in ASE because it was **being hammered continuously**. It's back up now. We are working with Dave at the moment to figure out if we should raise it with security. In my opinion, we should.
+
+But mypoint is, usually this kind of work would be done by somebody else, that wouldn't be me or you. We are just building stuff. Mostly that should be done by somebody else in some other organization
+
+He has a very narrow field, but as you noticed, he worked for the company for a short time. He usually comes to help the company temporarily. He is not a person who takes ownership of anything, really, which is worrying to some degree because we have three more guys, and I expect we are going to get something senior from them. 
+Let's just see. I didn't like him for this role. I'm not going to give him negative feedback yet until we speak with the other guys.
+
+
+
+ 
+The problem with contractors is that they are paid per day, so he would get around 550 Euros per day for working for us. That doesn't mean he gets all that money; it goes to the agency that hires him, and they get some percentage of it. Essentially, he has **no incentive to improve things**. He wants to work as long as possible and milk us for that money. That's going to be a problem with contractors. It's a good point to focus them on the skills we need and tell them exactly what we expect from them.
+
+
+I get that his feedback is negative. It’s similar to mine, but let's just wait before we send feedback to others, okay?
+As I said, it's up to you. You can join the interview. Sometimes I ramble a lot. You can join and listen; it’s up to you.
+
+It doesn't matter. If you have questions, just step in. So what I do is at the end, I leave 15 minutes for questions. If you don't join in many sections, you can practice joining the last section, which is when they ask questions. You can answer some of the questions or ask them follow-up questions. 
+But you are a certified engineer, you have experience with Kubernetes, and you build stuff on your own. There is no reason why you wouldn't ask those questions.
+Think about this. I'll leave it to you, okay?
