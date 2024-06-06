@@ -1,12 +1,25 @@
 
+**Azure and Azure DevOps Portal**
+- what kind of toolset did you use for the release?
+- the Azure DevOps portal?
+- - Can you describe the CI/CD pipeline you managed or created using Jenkins and Terraform? What were some challenges you faced with pipeline automation and how did you resolve them?
+
+### Configuration Management and Deployment Tools
+for managing artifacts
+.net
+sql server
+azure
+azure devops
+
+### Continuous Integration and Continuous Deployment (CI/CD)
+- Can you describe the CI/CD pipeline you managed or created using Jenkins and Terraform? What were some challenges you faced with pipeline automation and how did you resolve them?
+- You've worked on Jenkins jobs with related plugins for Testing and Continuous Deployment. Could you explain how you optimize these jobs for efficiency and error handling?
 
 
 **Terraform:**
 - where did you use Terraform?
-- When you use Terraform, it needs to save the state to a file or some other location. How did you manage the state in the Terraform script?
+- How did you manage the state in the Terraform script?
 - Terraform has some problems with storing secrets; basically, it stores the secret in open text. How did you work around that? This includes passwords, certificates, and any other sensitive data.
-
-
 
 **Automation Tools**
 - did you have some windows between where you kept the old server and you need to bring the new service? **how was that process orchestrated?** how did you do that?
@@ -14,25 +27,26 @@
 - Aside from Terraform, do you have any hands-on experience with other similar tools that allow you to manage VMs, provision them, or perform some kind of automation on those VMs?
 
 
-logging:
+**logging and Monitoring:**
 - Have you used any log aggregators like Elastic Stack or Splunck?
-- Have you created any dashboard in.
-
-
-
-**Monitoring:**
-- do you have the motoring at the top of the stack?
-- How did you send notifications?
-- How large was the cluster in terms of number of servers?
 - Any experience with **Promethouse, Graffana.**
-
+- Have you created any dashboard in.
+- Did you build any dashboard with **graffana and promethouse**? did you manage the promethouse from admin side? what was your role here?
+- Did you have any **alerting infrastructure** here as well? did you use any thenologies to send alerts when somethings went wrong?
+  - what if the disk run low or CPU was overextended?
+- How do you monitor and ensure the performance and health of your cloud infrastructure in a DevOps environment
 
 **Support:**
 - Did you play any role in L1 or L2 support? Would those tickets be assigned to you?
-
+- Can you describe your specific role when working with developers and the build & release team? How do you coordinate between these groups?
+- What are some of the typical challenges you face when collaborating with developers and the release team, and how do you address them?
 
 **k8s**
  - You mentioend AWS and Azure, where was that k8s runing actually?
+ - netwroking solution in k8s? 
+ - Do you have experience in managing or deploying applications in Kubernetes environment
+ - Can you explain how you would perform a rolling update or rollback in Kubernetes?
+ - how many clusters did you have?
  - How did you handle situations where a team **overused the cluster** resources, such as excessive memory and CPU consumption?
  - Have you provisioned your own K8s server or K8s cluster, even aside from all your work experience? Did you do that for your own purposes as exercises? Did you try to create the K8s cluster on a server or on your local machine?
  - What advantages do you see in using K8s in general?
@@ -43,16 +57,14 @@ logging:
 **Linux:**
 Do you have any hands-on experience with managing Linux or operating Linux VMs?
 
-
 **SQL**
-- You have some experience with SQL Server as well. I'm asking because we do a lot on managed SQL instances. What kind of experience do you have with SQL Server?
+- wht kind of database you use?
+- What kind of experience do you have with SQL Server?
 - Have you completed the release management of the **SQL database schema**? When you release applications, you sometimes need to update the schema in sql server.Have you done anything like that?
 
-
-**CI/CD**
-- what kind of toolset did you use for the release?
-
-
-
 **General:**
-Have you worked in an environment where you needed to build something from scratch and choose the best possible technology? Or have you been given tasks, like building servers from scratch? Do you have any experience in an environment like that? It doesn't have to be regulatory, just any relevant experience?
+- Have you worked in an environment where you needed to build something from scratch and choose the best possible technology? Or have you been given tasks, like building servers from scratch?
+- Can you describe your specific role when working with developers and the build & release team? How do you coordinate between these groups?
+- What are some of the typical challenges you face when collaborating with developers and the release team, and how do you address them
+- What learning resources or methods would you use to keep your knowledge up to date?
+  
