@@ -1,2 +1,202 @@
+**Kr**
 It's always problem weith setup with webex I supose!
 Godd aftrnoon Avinash, thank you for joing! **It is quite late. It is thursday already**
+We've got your cv from Ali, **We've got interested in the number of techniques which you listed in that CV**.
+Just as an introduction, I am Kris; I work as a cloud solution in Allianz Ireland!
+My job is keeping up to date with the cloud infrastructure for some of the products. Zahra is working with me; she is a DevOps engineer. 
+**Both of us combine into the DevOps team** in Allianz Ireland. We started our journey around 3 and half years ago. 
+Around two years ago, it is really picked up; 
+There are more products that we are currently putting into the cloud. Thus, we need to scale, and we are looking for people who ganna allow us to
+scale it up to the next level. we are also looking for some people who have experience with working with other companies because and We've have worked on these projects for quite some time now, so we are isolated from the external world, **so we are looking to have fresh blood** and keep us more experienced.
+
+
+
+
+We do have Azure infrastructure mainly,  we do have also AWS but we don't use it very much, there was an account which we created long time ago for experimentation.
+We mostly use Azure. The applications run on The App Service Environment for Windows applications plus .net core applications, which work on K8s clusters.
+At the moment, we have 6 clusters, 5 different environments, and the build environment. Those K8s clusters are isolated from each other; they don't talk to each other.
+So we want to make sure that we test the applications in isolation from each other.
+
+
+What else? We use Prometheus and Graffana for monitoring and Elastic Stak for log aggregation. So, we also use ISTIO. We'll talk about it in a minute because I noticed that you used Istio.
+
+
+Do you have any questions before we move forward? Is there anything of your interest before we move on?
+
+**In**
+No, we can proceed
+
+**Kr**
+Let me share my screen we can chat about your CV if that's fine.
+This is the CV which we got from Oliver James.
+So you work for Erikson. 
+where are based at the moment? Is it going to be a problem to come to Dublin once in a while?
+
+
+as such, we are not really Hybrid because we are asked to come to the office once a week. **but nobody's enforcing that**. We can make it work fully remotely if that's works for everyone
+
+we don't see each other in the office. me and zahra, for instance. **We work remotely pretty much all the time**. That's work for us. 
+**It is just a matter of setting up** what kind of model works for everyone.
+
+Can you tell me what you did in Erikson? What was your job? What was your duty? How would you describe your role there?
+
+**Avi**
+I was responsible as an applications engineer, mainly supporting the microservices team.
+Applications **can be considered as a bunch of microservices**.
+Spluncer **was mainly used by** the **cloud ops team** to deploy applications to AWS EKS cluster
+**My team was responsible for** writing the helm chart for microservice
+We **integrated applications with** Postgre DATABASE.
+
+In terms of testing, we were using some load tests. we had to **build a testing pipeline from scratch ourselves** 
+
+The first assignment was actually a product that a number of people came together to build from scratch. There were around 800 people working on this specific product in Athlone itself.
+
+We had integration with Promethouse, Graffana and Istio. All these third-party services where again provided by the Central team, so what we had to do was **integrate them and configure the pipeline**
+to deploy them, then **trigger the K6 testing pipeline** to **run the load tests** and **gather the performances and response metrics** from the test.
+
+The testing would be done by Product level teams as well. Multiple teams worked together.
+
+My **main day-to-day job** is mainly to deploy the Postgres DB and Redis cluster to the Open Shift platform and whatever automation is required, which our teams are responsible for doing.
+and also writing the functional tests as well to test the integration Database with the other services
+
+
+
+
+**Kr**
+
+
+Can we start with your previous project? Sorry, **I didn't catch the name**.
+So you said that there were services, and applications, right? So how did the release proccess work? **That sounds like pretty much complex**. 
+Did you release individual services? or did you move applications on the Entrite products?
+
+
+
+**Avi**
+We were responsible for only two applications. These applications have multiple microservices plus a database. so, for example, microservice teams **make a commit**
+that **would trigger the application pipeline.** So all **that orchestration was done by** Spinnaker
+
+So Spinnaker was the main orchestrator. **The microservices passed the application staging**, which **triggered the product staging pipeline**. After the successful completion of product staging, it deployed into the production cluster. Deployments were on multiple clouds, and multiple customers made their own choices. 
+This would deploy to AKS Azure as well.
+Mainly AWS and Azure.
+
+**Kr**
+I get it. Then you use Helm to deploy the K8s applications, right?
+
+**Avi**
+We would have multiple helm charts. **Microservices would have their own helm charts**, which would then be wrapped into an application helm chart.
+Then we would have another **product-level helm chart** that would contain a number of applications, so it would be like an umbrella chart called a product chart.
+That would **ultimately get deployed into the cluster** that the customer uses.
+
+
+**Kr**
+**How often did you run releases**? How often was it done?
+
+
+**Avi**
+The release would run every night. so every 24 hours.
+
+**Kr**
+so **whatever changes were committed,** they would be going through those all the pipeline, right? That's the idea.
+Did you use any artifactory like nexus here?
+Sorry, **I didn't notice that in your CV**.
+What exactly did you keep in your artifacty?
+
+**Avi**
+The heml packages and also our Docker images.
+
+
+**Kr**
+Did you have their own ortifactory, or did you have a managed instance?
+
+**Kr**
+
+What did you use Redis for?
+
+
+
+**Avi**
+Redis is the catching service for cloud-run products. As a team, we are only responsible for the data sources, so **we are expected to deliver** all **data-related services like Postgres **and Redis.
+Even **Redis is used as a message base**.
+
+
+
+**Kr**
+Interesting. Why is it like that? AWS has very interesting tools, even KAFKA, AMMQ or other services. Why did you use Redis? That does not sound right, really.
+
+ 
+**Avi**
+When I said cloud run, **it's more on the networking side of the mobile networks**. So We would **package all the helm charts and the docker images into a package** and these  packages are 
+actually **delivered to the customer**, so customers would install them into their networks.
+So this is the **standalone deployment** as you say
+
+So, it is completely microservice architecture. **They get the package which has everything in it**.
+
+
+**Kr**
+By customer you mean other company? So they would get the entire package. I see!
+There is one **interesting point here**: "Containerize and Deploy Redis and Postgres on EKS cluster" **Why did you put Postgres on k8s**?
+
+
+**Avi**
+The Eroksomn's **use cases were pretty straightforward**. every application would have **its own individual data store layer**.
+There is no product level or one single instance. so **every product application uses its own data store**.
+
+There is a central team that actually does this containerization of Postgress, so we at Erikson have this policy of using it. **Any specific third-party services will be containerise**d. We can just pick that up and modify and configure it according to the needs of the application.
+
+
+**Kr**
+
+**I get that**, but you are on AWS, and AWS has its own managed Postgres. **why did you go with the containerised version**?
+We see that as the way in Allianz. some people make that stupid decision. I was just curious; **I would never put a database on the k8s cluster**. Because there are a number of issues we had with the persistence volume, for instance, right?
+
+So, How did you manage persistence volume, going to that point?
+Did you use persistence volume in Postgres?
+
+**Avi**
+It is written by the Postgres team. so that wasn't me.
+
+**Kr**
+How did you configure microservices to integrate into Istio Service Mesh?
+
+**Avi**
+So, first of all, these are configuration-specific for the Pod template. One usage is specific cert need to comiunicate with teh IStio part.
+When you said Istio, it is MTLS. so we are to **configure a microservice to use MTLS**, to use certificates to login into other services
+
+**Kr**
+**Istio does it automatically,** you don't have to do anything here.
+When you install Istio, **it creates a sidecar** that is **assigned to the individual services**. **Istio orchestrates the certificate issue** and **mutual authentication**.
+I'm just curious. What exactly did you do here? Why would you customize something if Istio does it for you automatically?
+
+
+**Avi**
+ We **were adding annotation** for the microservice to **become part of the Istio mesh**.
+
+**Kr**
+Do you mean it enables?
+**Why did you use Istio?** what exactly did you use Istio for? Why is it important in this case?
+
+
+**Avi**
+
+We use Istio for secure communications between services, it provides MTLS.  and also for autorisations.
+It was **based on the customer's needs**. I think a **zero-trust framework** was **one of the requirements to deliver**
+
+**Kr**
+Do you remember the **networking plugin in k8s** you used?
+
+But Calico has some security features implemented already, so Calico, for instance, has some features which I**stio already has around the security comiunications**.
+Did you try to use Calico for that? Do you know why I used the Istio, or was it just a customer requirement?
+
+**Avi**
+It was an architect's decision and based on customer needs. we are not involved in.
+
+**Kr**
+What is your opinion on microservice? why do we use that pattern?
+When is the best to use microservice? and when it is not the best idea.
+**What kind of value do we get from microservices?**
+
+
+**Avi**
+
+
+
