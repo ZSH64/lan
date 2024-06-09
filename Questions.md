@@ -1,3 +1,15 @@
+- We've got interested in the number of techniques which you listed in that CV
+- There are more products that we are currently putting into the cloud. Thus, we need to scale, and we are looking for people who ganna allow us to
+  scale it up to the next level. we are also looking for some people who have experience with working with other companies because and We've have worked on these projects for quite some time now, so we are isolated from the external world, **so we are looking to have fresh blood** and keep us more experienced.
+
+
+**General**
+-Can you tell me what you did in Erikson? What was your job? What was your duty? How would you describe your role there?
+
+
+
+
+
 
 **Azure and Azure DevOps Portal**
 - what kind of toolset did you use for the release?
