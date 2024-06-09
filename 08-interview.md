@@ -204,7 +204,70 @@ When is the best to use microservice? and when it is not the best idea.
 **What kind of value do we get from microservices?**
 
 
+**Kr**
+
+How large was the cluster? how many nodes did you have there?
+How many master nodes?
+From a networking perspective, I  have 20 nodes, and I have a service installed on node number 15. I'm a customer. I'm **coming from the Internet** and I want to call 
+that exactlly service on that node 15, how do I do that?
+
+So, The individual applications **can be shifted and run between different nodes**; that is part of the problem probably.So how the **k8s allows you to target those individual** applications **regardless of where they are installed**
+You have an application on node 15, then you restart it, and all of a sudden, it lands on node 6. How do the K8s help me reach the proper node?
+
 **Avi**
+
+Traffic flows to Service objects, so the request hits the load balancer. Once it passes a load balancer, then it hits the service object. then the service object would have a map of where to send the request with respect to
+
+
+**Kr**
+
+Let's move back for a second because you said that the load balancer hit the service object; **how does the load balancer know what to hit exactly**?
+
+**Kr**
+
+How would you explain the difference between k8s and Docker? what is the key difference between the k8s and docker? What is the relationship between k8s and docker?
+
+
+**Avi**
+
+Docker is containerisation technology but the k8s is container orchestrator. That's the major difference.
+
+
+**Kr**
+
+**What does the orchestration actually mean** in this context?
+
+
+**Kr**
+
+I noticed you use "Image Scanning Tools," but I didn't get that; what are those?
+
+
+**Avi**
+
+They would scan Docker images for **vulnerabilities and security constants**. These could come from the OS layer or from the application itself.
+They could generate vulnerability CV reposts.
+
+**Kr**
+
+What is the name of the tool?
+Oh, okay, I didn't get that name. I know Qualys.
+**Qualys is integrated with the artifactory?** How does it work?
+
+
+**Avi**
+
+Qualys is integrated into the pipeline.
+
+**Kr**
+
+What did you use Ansible for?
+
+
+**Avi**
+
+This was from my previous Job. We had multiple systems deployed. we used Ansible to deploy a cluster into the customer environments
+
 
 
 
