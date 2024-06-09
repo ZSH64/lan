@@ -1,9 +1,9 @@
-I have seen too much about the job specification or requirements, so I'd like to get an understanding of, say, your requirements and what you are looking  for exactly.
+I haven't  seen too much about the job specification or requirements, so I'd like to get an understanding of, say, your requirements and what you are looking  for exactly.
 
 
 
 
-I've been with Allianz since 2020, so I joined around  the peak epidemic. My role was to design and implement the infrastructure in Azure. we can talk about technology choices in a minute. I've been told to build up the infrastructure to host the applications, which people from the development move from on-prem infrastructure. They have buckets of Windows base applications in .net core and they rolled a large chunk of it in .net core,
+I've been with Allianz since 2020, so I joined around  the peak epidemic. My role was to design and implement the infrastructure in Azure. we can talk about technology choices in a minute. I've been told to **build up the infrastructure** to host the applications, which people from the development move from on-prem infrastructure. They have buckets of Windows base applications in .net core and they rolled a large chunk of it in .net core,
 basically  migrated that to host on k8s
 My job was to build the individual environments so that we could move them those applications through those environments, make sure they are adhering to their quality, the security standard, to the  regulatory standard, and then we could present them to the actual customers
 
