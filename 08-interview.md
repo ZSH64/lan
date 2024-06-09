@@ -1,4 +1,5 @@
 **Kr**
+
 It's always problem weith setup with webex I supose!
 Godd aftrnoon Avinash, thank you for joing! **It is quite late. It is thursday already**
 We've got your cv from Ali, **We've got interested in the number of techniques which you listed in that CV**.
@@ -24,9 +25,11 @@ What else? We use Prometheus and Graffana for monitoring and Elastic Stak for lo
 Do you have any questions before we move forward? Is there anything of your interest before we move on?
 
 **In**
+
 No, we can proceed
 
 **Kr**
+
 Let me share my screen we can chat about your CV if that's fine.
 This is the CV which we got from Oliver James.
 So you work for Erikson. 
@@ -169,9 +172,11 @@ I'm just curious. What exactly did you do here? Why would you customize somethin
 
 
 **Avi**
+
  We **were adding annotation** for the microservice to **become part of the Istio mesh**.
 
 **Kr**
+
 Do you mean it enables?
 **Why did you use Istio?** what exactly did you use Istio for? Why is it important in this case?
 
@@ -182,15 +187,18 @@ We use Istio for secure communications between services, it provides MTLS.  and 
 It was **based on the customer's needs**. I think a **zero-trust framework** was **one of the requirements to deliver**
 
 **Kr**
+
 Do you remember the **networking plugin in k8s** you used?
 
 But Calico has some security features implemented already, so Calico, for instance, has some features which I**stio already has around the security comiunications**.
 Did you try to use Calico for that? Do you know why I used the Istio, or was it just a customer requirement?
 
 **Avi**
+
 It was an architect's decision and based on customer needs. we are not involved in.
 
 **Kr**
+
 What is your opinion on microservice? why do we use that pattern?
 When is the best to use microservice? and when it is not the best idea.
 **What kind of value do we get from microservices?**
