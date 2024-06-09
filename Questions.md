@@ -17,11 +17,18 @@
 - **Why did you use Istio?** what exactly did you use Istio for? Why is it important in this case?
 - So, How did you manage persistence volume, going to that point?So, how did you manage persistent volumes up to that point? Did you use persistent volumes in Postgres?
 - Do you remeber what was the networking plugin in k8s which you used?
+- How large was the cluster? how many nodes did you have there?
+- So, The individual applications **can be shifted and run between different nodes**; that is part of the problem probably.So how the **k8s allows you to target those individual** applications **regardless where they are installed**
+
 
 
 
 - Do you remember the **networking plugin in k8s** you used?
 
+
+- What did you use Ansible for?
+
+  
 **Azure and Azure DevOps Portal**
 - what kind of toolset did you use for the release?
 - the Azure DevOps portal?
