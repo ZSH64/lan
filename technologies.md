@@ -29,6 +29,7 @@
 - Qualys
 - Trivy
 - Clair
+- Black Duck
 
 **API management solution**
 
@@ -42,3 +43,12 @@ IDM (Identity Management) service, also known as Identity and Access Management 
   - IBM Security Identity Manager
   - Ping Identity
   - Centrify Identity Service
+
+
+**DDoS security tools(DDoS Protection Software):**
+ - WAF
+
+
+
+
+
