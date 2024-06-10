@@ -28,7 +28,14 @@
 
 - What did you use Ansible for?
 
-  
+
+
+Have you worked with Revers Proxies? What is **Reverse Proxy**? what is the difference between a load balancer and a reverse proxy?
+
+
+You also mentioned you have some experience with Redhat. **What did you do exactly in the Redhat**?
+
+
 **Azure and Azure DevOps Portal**
 - what kind of toolset did you use for the release?
 - the Azure DevOps portal?
