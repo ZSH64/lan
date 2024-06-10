@@ -266,8 +266,79 @@ What did you use Ansible for?
 
 **Avi**
 
-This was from my previous Job. We had multiple systems deployed. we used Ansible to deploy a cluster into the customer environments
+This was from my previous Job. We had a platform for specifically to get IMID. There are several customers like mostly from the auto industry using this platform for **IDM services**.
+We had multiple services deployed. we had an **Apigee API gate way.**
+We use Ansible to deploy **the Apigee cluster** on to environments.
+**When we say Apigee cluster, it is a full stack from the load balancer to the database**
+
+**Kr**
+
+So you had self-hosted Apigee on your own infrastructure.
 
 
+**Avi**
+
+
+No, Apigee was hosted on AWS. Now you can use **Apigee in GCP as a service**. it is a good product. but in our case it is hosted in AWS as an on-prem cluster.
+They have the option of deploying on promises, so we deployed it on AWS as we already have a service running the back-end **IDM services**.
+
+
+
+**Kr**
+
+Quick question on the **theory side**. Let's say I want to **build my public-facing Application**, so basically, **it has to go to the Internet**.
+I have **a product consisting of multiple microservices**. They are run on the K8s cluster in the back end. How would you **open the K8s cluster for those applications to the public internet**, regardless of the cloud infrastructure? You can pick up your own stack if you want so that it is secured and the data can not be broken into.
+Basically, it is a fully working 21st-century product. which is secured to the customer, which is fast and efficient
+
+The only requirement I have is that the application has to be run on k8s. It has to be accessible from the internet. How would you that?
+
+**Avi**
+
+The **front-facing layer** would be a load balancer. The request would hit the load balancer. Before, we would **require DNS names to be registered**.
+Also, **requires enabling SSL and TLS for communication**.
+
+We could choose to **offload TLS on the load balancer** itself or in the application layer.
+
+
+**Kr**
+
+
+What is the role of the load balancer here? Why do we need a load balancer?
+If I go to your previous example, you're cluster has 20 nodes the **load balancer would be targeting each** single of those nodes
+
+
+**Avi**
+
+We would operate a NodePort service, and then they would be mapped to a DNS name that **would be internal to our Infrastructure**. Request hits the worker node.
+CORE DNS would come into play and redirect to a specific service name. The service would forward requests to specific pods based on mapping from Kue-proxy.
+Then finally reach the Pod itself
+
+**Kr**
+
+**What kind of Loadbalancer strategy would you pick up for a load balancer** here?
+Have you worked with Revers Proxies? What is Reverse Proxy? what is the difference between a load balancer and a reverse proxy?
+
+**Avi**
+
+The Revers Proxy should not do Load balancing. It is just a front for the application that we want to hide. We had Jenkis server, which was behind the Nginx, which is a proxy.
+
+
+**Kr**
+
+**Have you ever worked with web application firewalls?** Like WAF?
+How about any tools related to DDOS security?
+
+
+**Avi**
+
+**With respect to security**, I have some experience securing applications, mainly from the CI/CD front. 
+We had a third-party library tool scanning called **Black Duck** so it would scan the application itself before containerizing it.
+It would fail the pipeline if there were vulnerabilities. Apart from that, We set TLS communication between our Jenkins servers and worker nodes.
+
+
+
+**Kr**
+
+You also mentioned you have some experience with Redhat. What did you do exactly in the Redhat?
 
 
