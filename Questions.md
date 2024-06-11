@@ -36,6 +36,9 @@ Have you worked with Revers Proxies? What is **Reverse Proxy**? what is the diff
 You also mentioned you have some experience with Redhat. **What did you do exactly in the Redhat**?
 
 
+
+
+
 **Azure and Azure DevOps Portal**
 - what kind of toolset did you use for the release?
 - the Azure DevOps portal?
@@ -66,6 +69,7 @@ azure devops
 
 **logging and Monitoring:**
 - Have you used any log aggregators like Elastic Stack or Splunck?
+- What did you use Graffana for?
 - Any experience with **Promethouse, Graffana.**
 - Have you created any dashboard in.
 - Did you build any dashboard with **graffana and promethouse**? did you manage the promethouse from admin side? what was your role here?
@@ -92,12 +96,16 @@ azure devops
  - What about **Istio** in k8s? Have you heard about Istio?
 
 **Linux:**
-Do you have any hands-on experience with managing Linux or operating Linux VMs?
+- Do you have any hands-on experience with managing Linux or operating Linux VMs?
+- Did you  need it to  do some configuration manually on that server?
+- What tools do you use to **check the amount of free disk space on the server**
+- You've also mentioned you have some experience with Redhat. **What did you do exactly in the Redhat**?
 
 **SQL**
 - wht kind of database you use?
 - What kind of experience do you have with SQL Server?
 - Have you completed the release management of the **SQL database schema**? When you release applications, you sometimes need to update the schema in sql server.Have you done anything like that?
+
 
 **General:**
 - Have you worked in an environment where you needed to build something from scratch and choose the best possible technology? Or have you been given tasks, like building servers from scratch?
