@@ -294,7 +294,7 @@ The only requirement I have is that the application has to be run on k8s. It has
 
 **Avi**
 
-The **front-facing layer** would be a load balancer. The request would hit the load balancer. Before, we would **require DNS names to be registered**.
+If it is an **internet-facing application** , The **front-facing layer** would be a load balancer. The request would hit the load balancer. Before, we would require DNS names to be registered.
 Also, **requires enabling SSL and TLS for communication**.
 
 We could choose to **offload TLS on the load balancer** itself or in the application layer.
@@ -326,19 +326,106 @@ The Revers Proxy should not do Load balancing. It is just a front for the applic
 **Kr**
 
 **Have you ever worked with web application firewalls?** Like WAF?
-How about any tools related to DDOS security?
+How about any tools related to **DDOS security**?
 
 
 **Avi**
 
 **With respect to security**, I have some experience securing applications, mainly from the CI/CD front. 
 We had a third-party library tool scanning called **Black Duck** so it would scan the application itself before containerizing it.
-It would fail the pipeline if there were vulnerabilities. Apart from that, We set TLS communication between our Jenkins servers and worker nodes.
+It would fail the pipeline if there were vulnerabilities; the pipeline will not move forward until you fix that. Apart from that, 
+We set TLS communication between our Jenkins servers and worker nodes.
 
 
 
 **Kr**
 
-You also mentioned you have some experience with Redhat. What did you do exactly in the Redhat?
+You've also mentioned you have some experience with Redhat. **What did you do exactly in the Redhat**?
+
+**Avi**
+
+I worked for a team that maintained Redhat services. We were provisioning new hosts as requested, way back in 2016.
+
+**Kr**
+How did you provision that?
+Did you  need it to  do some configuration manually on that server?
+
+
+
+**Avi**
+Once the server is provisioned, we used to do network configurations and also patch the server.
+
+
+**Kr**
+Can you write a script in Bach?
+What tools do you use to **check the amount of free disk space on the server**?
+
+
+
+**Kr**
+What did you use Graffana for?
+
+
+**Avi**
+
+We use Graffabna to visualize the cluster health and pod metrics.
+Kibanna is a UI tolls to which wehere logs
+
+
+**Kr**
+Did you be on your ELK, or did you use the existing one?
+
+
+
+**Avi**
+This was mainly the exciting one. **The ELK stack was also containerised**.
+
+
+**Kr**
+We are approaching 45 minutes now. As I said, we are going to leave the last 15 minutes for your question. Is there anything you would like to know more about? Would you like to learn more about the role or about the company?
+
+**Kr**
+That's Zahra and me. We are mainly in Azure except for the AKS; we use our own K8s cluster, which is hosted on an Azure VM. We don't use AKS.
+
+**Avi**
+So you are expecting some new work that are coming in; that's why you are recruiting, is it?
+
+**Kr**
+It is a mix of; at the moment, we are adding more applications which are being migrated from legacy infrastructure, from premises. That is VMware as well
+they want to decommission the VMWare and move completely to the Azure mainly. That's loads of applications.
+We had almost 80 Virtual machines and almost 200 different databases. The infrastructure is quite sizable.we have a lot of automation, but in the end, it is just me and Zahra working on and supporting that. plus there is ongoing support work with the development teams and helping product teams. So it is mixed of staff. basically we need someone to help with that.
+
+
+**Avi**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
