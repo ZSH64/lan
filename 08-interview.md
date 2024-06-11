@@ -390,11 +390,34 @@ That's Zahra and me. We are mainly in Azure except for the AKS; we use our own K
 **Avi**
 So you are expecting some new work that are coming in; that's why you are recruiting, is it?
 
+
+**Kr**
+Have you used terraform for anything?
+
+We relly on terafform here, it is not very complex
 **Kr**
 It is a mix of; at the moment, we are adding more applications which are being migrated from legacy infrastructure, from premises. That is VMware as well
 they want to decommission the VMWare and move completely to the Azure mainly. That's loads of applications.
-We had almost 80 Virtual machines and almost 200 different databases. The infrastructure is quite sizable.we have a lot of automation, but in the end, it is just me and Zahra working on and supporting that. plus there is ongoing support work with the development teams and helping product teams. So it is mixed of staff. basically we need someone to help with that.
+We had almost 80 Virtual machines and almost 200 different databases. The infrastructure is quite sizable.we have a lot of automation, but in the end, it is just me and Zahra working on and supporting that. plus there is ongoing support work with the development teams and helping product teams. So it is mixed of staff. Basically, we need someone to help us with that.
+Plus we need to implement more automation we want to automate the proccess as much as possible.
+We need to do some cleaning in the Release pipelines as well.
+The application itself is very stable, but that's not our concern. We just want to make sure that we can easily scale it when the requirements come for new services or new applications
+For instance, we currently require implementing Blue/Grenn deployment and testing those applications.
+that is coming from the product. that is the piece of work which we need to be done.
 
+Another thing is granting access to our test infrastructure for third-party applications that need to perform integration testing.
+So, that is the mix of firewall plus some security rules that need to be opened on the application gateway in order to allow traffic in.
+
+
+
+**Kr**
+Have you used terraform for anything?
+We rely on Terafform here, it is not very complex technology.
+So Ansible is used for provisioned virtual machines themselves, but Terraform is used to provision infrastructure.
+So we provision everything in Azure, well not everything, but most of the infrastructure is provisioned using Terraform.
+So we would be looking for somebody to come and help us with terraform scripts as well.
+
+anything else?
 
 **Avi**
 
