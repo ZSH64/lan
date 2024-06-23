@@ -7,7 +7,7 @@ I've been with Allianz since 2020, so I joined around  the peak epidemic. My rol
 basically  migrated that to host on k8s
 My job was to build the individual environments so that we could move them those applications through those environments, make sure they are adhering to their quality, the security standard, to the  regulatory standard, and then we could present them to the actual customers
 
-My first job was building the k8s clusters so that we could host the applications; the applications are written in microservices pattern, so each single microservice has its own entities working  on it's own container, using its own database and stuff like that
+My first job was **building the k8s clusters** so that we could host the applications; the applications **are written in microservices pattern**, so each single microservice has its own entities working  on it's own container, using its own database and stuff like that
 
 We have five environments at the moment; the largest one is the production one, which is seven nodes, but that's gonna be growing pretty rapidly, parallel to that we use the engine called The App Service Environment(ASE), that's the service from Azure which allows you to run legacy windows applications without need to host your own server, basically your IIS application id started into App Service Enviroment, it needs  its own kind of container, it is not really container because windows doesn't have containers, but its is just emulate the IIS, and it is managed.  it takes of you the security patching and all the operations related to VMs hosting.
 
@@ -18,7 +18,7 @@ So Zahra is playing an important part in that, Zahra was hired roughly a month a
 We have loads of DevOps stuff here. This is one of the applications. We have loads of DevOps metrics and Dashboard stuff like that.
 We work primerly on Garrafana. There is Promethouse metrics. It is bit noisy at the moment we need to do some cleaning extra.
 So Part of the problem at the moment is that we grow so rapidly taht we all need a staff which wasnot necessary to sastain application as we ..
-But now we need to somebody else to help us with cleaning, extera, so putting some operational oversight lets put  it that way, and hepling us.
+But now we need somebody else to help us with cleaning, extra, so putting some operational oversight, let's put it that way, and helping us.
 It is not about building anything from scratch; it is more about sustaining what we have at the moment and helping us sustain this entire ship. if that makes sence.
 
 **Interviewee**: Understood, yes.
@@ -38,7 +38,7 @@ Let's go through that step by step.Obviously, we have CI/CD pipelines. That's no
 Let's talk about your experience. So what did you do in your recent job?
 
 **Interviewee**: In terms of my experience there. I was a cloud and DevOps engineer there. So what I was working on was the deployment of SAAS-based applications for the fund investment team, so they had calculations that they needed to run. There was instances of SASS-based application running on-premises  and running people's local machines. So what I was in charge of doing was bringing that to a cloud-based offering and consolidating some of the licences around the firm so that we could use just one centralized platform. So I pretty much work on everything there from creating these terraform, pipelines and Jenkins. We had an interesting problem whereby every 60 days we have to(I'm not sure if you have the same issue) rehydrate windows image that we are running on every 60 days for compliance reasons. and what that meant is that basically terminate the EC2 that we are running on and essentially do the complete install onto another EC2 and obviouslly manually, thats alot of operayional.
-I was able to come up with some terraform scripts to do that whole thing automatically. That was one thing that I'm was working on
+I was able to **come up with some terraform scripts** to do that whole thing automatically. That was one thing that I'm was working on
 
 
 Can we for one-second focus on that?  what did you mean by rehydration? You mentioned that term a couple of times;
@@ -51,7 +51,7 @@ Can we for one-second focus on that?  what did you mean by rehydration? You ment
 It dose make perfect sence. what were these Windows instances used for? was it a desktop machine?
 
 
-**Interviewee:** There are Windows server machines used for hosting SASS applications, so the SASS service renders the UI to the ned user.
+**Interviewee:** There are Windows server machines used for hosting SASS applications, so the SASS service renders the UI to the end user.
 
 
 Did you consider using any other managed services?
@@ -84,7 +84,7 @@ when you bring up a new server, how did you orchestrate that entire process? so 
 
 **Interviewee:**  That was a very interesting problem to solve. They had to follow the sequential process to **make sure that everything happened in order** so it had to happen when the business was not using it. that involved stopping the servers and creating a new instance, then going into repointing the new instance EC2 with a new IP. then pointing the CNAME record to teh IP of the new instance. that wat a been proces. That was an old token that was associated with the old machine. that had to be regenerated and placed
 The password had to be encrypted.
-There were some problems I had to overcome. That's kind of a process that we went through. I wrote some Powershell scripts as well to do some basic system configuration. something that should happen after the service is deployed and installed. setting up firewalls and configs.
+**There were some problems I had to overcome**. That's kind of a process that we went through. I wrote some Powershell scripts as well to do some basic system configuration. something that should happen after the service is deployed and installed. setting up firewalls and configs.
 Then, of course, terminating the old server when it is no longer used to save cost because some of the Azure instances are quite expensive.
  
 
