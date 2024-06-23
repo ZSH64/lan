@@ -105,7 +105,7 @@ Aside from this project, where did you use Terraform?
 **Interviewee:**
 so, It was the first place that I ecncounterd Terraform. it was a relatively new technology to me at the time.
 I've been aware of other infrastructure provisioning tools like cloud information, but I wouldn't have used some of them.
-That was my first exposure to it. It is pretty easy to pick up when you use it.
+That was my first exposure to it. **It is pretty easy to pick up when you use it**.
  
 **K:** 
 When you use Terraform, It needs to save state to a file or some other location. How did you manage the state in terraform scripts?
@@ -123,7 +123,7 @@ Once you have a server, you flip the traffic to the new stack. How did you know 
 
 
 **Interviewee:**
-In terms of how I figured out that it was working correctly, it was reachable by a web browser. And if the pinging of that URL returns the right IP of the new instances, it could be a valid test that it is pointing to the rights server
+**In terms of how I figured out that it was working correctly**, it was reachable by a web browser. And if the pinging of that URL returns the right IP of the new instances, it could be a valid test that it is pointing to the rights server
 
 **K:** 
 But you said some certificates needed to be generated, so **there is a set of tasks need to be performed**  , and then you need to check if those certificates work correctly. 
