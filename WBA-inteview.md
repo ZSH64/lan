@@ -7,4 +7,9 @@ I still feel green myself. **I've got previus experince as a** Devops engenere a
 In the same way that I am providing this support in the governance kind of level, and the engineers will be **providing support** much more **lower-level, much more technical manner**,in terms of working closely with me and how we provide that support through new initiatives, a new potential optimisation that can help and improve the waller greens. CI/CD kind of workflow. That was a little bit about me as well as the role.
 
 
-We can jump right into some high-level technical questions, to get a better sense of your experience throughout your various previous rules before moving on to Aislimng's questions, which should be more culturally based.
+We can jump right into some high-level technical questions to get a better sense of your experience throughout your various previous rules before moving on to Aislimng's questions, which should be more culturally based.
+
+Let's start with one that we usually do. Would you tell me a little bit about yourself? Your relevant experience to this role. **I see you've got extended experience working as a software
+developer engineer and you moved more over to an SRE role**. Yeah, go right ahead.
+
+We can jump into that as we go. speaking a which first. you mention
