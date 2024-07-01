@@ -38,9 +38,33 @@ Speaking of orchestration and handling with K8s as you mentioned, you have a cou
 Tha's good coveregae your difffrent levels of kind of monitoring and observability, but when it omes to actually investigating let's say deployment has gone down and the pod has gone down.
 You've been told through graffana and you've been told through promethouse what the problem is there. How do you investigate the actuall problem itself.
 
-Let's say the pod is still up and running, I needed you to access that pod via your terminal what kube controll command would you use to kind of access on running po
+Let's say the pod is still up and running; I needed you to access that pod via your terminal. What kube control command would you use to kind of access the running pod?
 
 -------
+
+I've been there, you've got stear it into your brain after a while, isn't it?
+I've got one more question before move it over to Aisling, Then I might have one or two technical questions at the end if we have time.
+I just wanna make sure, we cover all of our bases here properly.
+
+The last one that I have for you right now is regarding the deployment strategy. Can you describe the difference between the blue/green strategy and the canary strategy?
+
+
+-------
+**That's no problem whatsoever.** You are on the right track, so blue/green, you are dead right.
+it is two different applications; when you move from one to the other, one would be the production, let's say the blue cluster and if you are going to make a new version of the production, you have like a pre-prod similar cluster called green. when you are moving from blue to green, it's literally an immediate switchover. so it is quite a large costly deployment method of moving everything from one to the other. 
+When you move from blue to green, blue then becomes the new pre-production. So it is a bit of a constant back and forth between the two, whereas the 20 percent element that you
+were saying there, that is more Chanary where is like a rolling update.
+You are right in the same element of getting aspects of both, but that's just the separation. What is the immediate switch it over, and the other is slowly, a little bit over time, you know 20 to 50 to 100.
+so that's the difference there.
+
+
+just to the interested time I'm getting move things over to Asling now, and if we have a little bit of time at the end I might follow up with one or two more tecnical questions and natryally obviously we wana make sure you can address any question you mighty have yourself.
+Thank you for the moment.
+
+----------------
+
+
+
 
 
 
