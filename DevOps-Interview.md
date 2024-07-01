@@ -13,6 +13,6 @@ Docker Container or k8s deployments?
 - why would you use k8s pod as you are right it utilises a Docker container in it? Why would you use that over just a straight Docker container by itself?
 - If the K8s deployment was to go down, how would you investigate that problem?
 - Let's say the pod is still up and running, I needed you to access that pod via your terminal what kube controll command would you use to kind of access on running pod?
+- Can you describe the difference between the blue/green and canary strategies?
 
 -----
-I've been there, you've get stear it into your brain after a while isnt it?
