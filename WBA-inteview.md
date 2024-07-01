@@ -65,7 +65,9 @@ Thank you for the moment.
 
 
 
+Thank you Chirstian and thank you Zahra for all that sofar so.
 
+The questions that I have for you, could you please tell me about the time when you failed to owner the commitment that you made at work?
 
 
 
