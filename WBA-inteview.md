@@ -12,4 +12,36 @@ We can jump right into some high-level technical questions to get a better sense
 Let's start with one that we usually do. Would you tell me a little bit about yourself? Your relevant experience to this role. **I see you've got extended experience working as a software
 developer engineer and you moved more over to an SRE role**. Yeah, go right ahead.
 
-We can jump into that as we go. speaking a which first. you mention
+**We can jump into that as we go**. speaking a which first. you mentioned how you worked with the CI/CD pipeline; could you expand a little bit more on the tools you use there? As well as a type of pipeline you build, maintain, and optimize.
+
+--------------------
+Okay, interesting. That is a good example of having your own opinion, needing to know what the company needs at that moment, and you can slowly change it over time. that is a good example.
+
+When dealing with various CI/CD pipelines that you've developed, how would you generally handle the failing builds?
+
+--------------
+You mentioned working with k8s and Docker; how would you compare to? which do you prefer? and what is the major difference you see between the two?
+Docker Container or k8s deployments?
+
+---------------------------------
+
+I think you are getting part of the question, you can have k8s as an orchestrator and in the same way, you can have helm as an orchestrator, why would you use k8s pod
+as you are right it utilises a Docker container within it? but Why would you use that over just a straight Docker container by itself?
+
+You are definitely on the right track there; that's what I was looking for: the difference between orchestration. You've nailed it.
+
+------------------
+
+Speaking of orchestration and handling with K8s as you mentioned, you have a couple of different clusters. If the K8s deployment had gone down, how would you investigate that problem?
+
+------------------
+Tha's good coveregae your difffrent levels of kind of monitoring and observability, but when it omes to actually investigating let's say deployment has gone down and the pod has gone down.
+You've been told through graffana and you've been told through promethouse what the problem is there. How do you investigate the actuall problem itself.
+
+Let's say the pod is still up and running, I needed you to access that pod via your terminal what kube controll command would you use to kind of access on running po
+
+-------
+
+
+
+
