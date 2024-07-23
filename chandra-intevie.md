@@ -1,6 +1,11 @@
  Good afternon, thank you for joing! Just as an introduction, I am Zahra; I work as a DevOps enngenner in Allianz Ireland!I started my journey around 3 and half years ago. 
- My job is maintaining the cloud infrastructure and implementing the CI/CD process. Also support QA, Developer and Prodcut owners.
-We primarily work with Azure. Our setup includes Windows applications running on the App Service Environment and .NET Core applications on Kubernetes clusters. We're currently managing six custom-built Kubernetes clusters, What else? We use Prometheus and Graffana for monitoring and Elastic Stak for log aggregation.
+ My job is maintaining the cloud infrastructure and implementing the CI/CD process. 
+ Also support QA, Developer and Prodcut owners.
+ 
+We primarily work with Azure. Our setup includes Windows applications running on the App Service Environment and .NET Core applications on Kubernetes clusters. W
+
+We're currently managing six custom-built Kubernetes clusters, What else? We use Prometheus and Graffana for monitoring and Elastic Stak for log aggregation
+
 Do you have any questions before we move forward? Is there anything of your interest before we move on?
 
 
@@ -21,8 +26,11 @@ Do you have any questions before we move forward? Is there anything of your inte
 - What kind of value do we get from microservices? What is your opinion on microservice?
 - When is the best to use microservice? and when it is not the best idea?
 - What are the main challenges in microservice deployment?
-  
+- How you protect your selve form the upgrade going wrong, how did you rolleback?
+- You can ask:
 
+"Can you explain how you managed to deploy the microservice in production without downtime or service interruption? Additionally, where exactly is the microservice deployed?"
+0
 **Security:**
 
  - What security considerations do you consider when you are building a system? What are the key security considerations? What are the principles you apply?
@@ -79,7 +87,7 @@ Do you have any questions before we move forward? Is there anything of your inte
 - How do you monitor and ensure the performance and health of your cloud infrastructure in a DevOps environment
 
 
-- How you protect your selve form the upgrade going wrong, how did you rolleback?
+
 - What are the potential challenges you might face when implementing Continuous Deployment? and how did you go about overcoming it
 What would you say are mandatory steps in Continuse integration
 
