@@ -1,8 +1,12 @@
-Good afternoon, and thank you for joining us today!
+Good afternon, thank you for joing! Just as an introduction, I am Zahra; 
 
-My name is Zahra, and I’m a DevOps Engineer at Allianz Ireland. My primary role involves maintaining our cloud infrastructure and implementing CI/CD processes. I work closely with our cloud solution architect, and together, we form the core of the DevOps team here at Allianz Ireland.
+I work as a DevOps enngenner in Allianz Ireland!I started my journey around 3 and half years ago. My job is maintaining the cloud infrastructure and implementing the CI/CD process. Also support QA, Developer and Prodcut owners.
 
-We began our journey about three and a half years ago. Since then, we have collaboratively built the entire infrastructure and the operational sites surrounding it. Our main platform is Azure. We run Windows applications on the App Service Environment and .NET Core applications on Kubernetes clusters. Currently, we manage six custom-built Kubernetes clusters, which are isolated from one another to ensure robust security and performance.
+We primarily work with Azure. Our setup includes Windows applications running on the App Service Environment and .NET Core applications on Kubernetes clusters. W
+
+We're currently managing six custom-built Kubernetes clusters, What else? We use Prometheus and Graffana for monitoring and Elastic Stak for log aggregation
+
+Do you have any questions before we move forward? Is there anything of your interest before we move on?
 
 In terms of DevOps practices, we have a comprehensive setup including various metrics and dashboards that help us monitor and manage our infrastructure effectively. Our team is responsible for overseeing these clusters and providing support to other teams.
 
@@ -11,23 +15,26 @@ As our applications continue to expand, we are looking to grow our team. We’re
 Do you have any questions before we proceed?
 
 ------------------
-
-
-
-
+                                                                                                                                        
+                                                                                                                                        
+                                                                                                                                        
+                                                                                                                                        
 **CI/CD:**
 - Can you tell us what you are doing in your current job? What is your duty? How would you describe your role there?
 - How often did you run releases? How often was it done?
 - Could you describe a build and deployment pipeline you've created in any system?
 - Can you describe an example of something that you automated? I know you've given those suggestions of the ideas of what you've been working on, but just something that you've greatly automated that saved the business time?
+- How do you ensure that your CI/CD pipeline is secure? Can you share some strategies or tools you use to achieve this
 
   
 **artifactory**
 - Did you use any **artifactory** like nexus here?
  - What exactly did you keep in the artifacty?
+   
 **Microservice**
  -What is your opinion on microservice? When is the best to use microservice? and when it is not the best idea. What kind of value do we get from microservices?
-
+- Can you describe the challenges you have encountered with microservices architecture from development to deployment? 
+  - - What are the potential challenges you might face when implementing Continuous Deployment?? and how did you go about overcoming it
 
 **K8S:**
 - you have experience in managing or deploying applications in Kubernetes environment.
@@ -35,8 +42,12 @@ Do you have any questions before we proceed?
  - how many clusters did you have?
  - How large was the cluster? how many nodes did you have there?
 - What advantages do you see in using K8s in general?
+- How can you perform rolling updates with zero downtime in Kubernetes?
+    - Rolling updates with zero downtime can be achieved by using readiness probes in Kubernetes
+- How do you protect yourself from the upgrade going wrong? How do you roll back?
+     
 - Do you see any workload that you'd never put in K8s for some reason? If I told you we have a cluster of VMs and want to cut costs by moving them all to K8s, is there any use case you consider not suitable for K8s?Do you see any workload that you'd never put in K8s for some reason?
-- Can you explain how you would perform a rolling update or rollback in Kubernetes?
+- Can you explain how you would perform a rollback in Kubernetes?
 
 **K8S:**
 
@@ -88,8 +99,6 @@ The only requirement I have is that the application has to be run on k8s. It has
 - How do you monitor and ensure the performance and health of your cloud infrastructure in a DevOps environment
 
 
-- How you protect your selve form the upgrade going wrong, how did you rolleback?
-- What are the potential challenges you might face when implementing Continuous Deployment?? and how did you go about overcoming it
 What would you say are mandatory steps in Continuse integration
 
 WHat security considratiion do you consider when you building a system? what doose key security considration?what is the pricnisples you apply?
